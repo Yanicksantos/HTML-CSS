@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgba(0, 139, 139, 0.527);
+    display: flex;
+    flex-wrap: wrap;
+}
+.w50{
+    width: 50%;
+    padding: 0 10px;
+}
+.Menu{
+    text-align: right;
+}
+section.Banner{
+    width: 100%;
+    min-height: 300px;
+    background-color: darkblue;
+    text-align: center;
+    padding: 90px 0;
+    color: white;
+}
+section.diferencials{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: violet;
+}
+@media screen and(max-width: 768px) {
+    .Menu{
+        text-align: center;
+    }
+    header{
+        text-align: center;
+    }
+    .w50,.w33{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
